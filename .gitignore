@@ -1,0 +1,32 @@
+
+#terraform working directory
+.terraform/
+
+#terraform state
+*.tfstate
+*.tfstate.*
+
+#terraform crash logs
+crash.log
+crash.*.log
+
+#local variable values
+terraform.tfvars
+terraform.tfvars.json
+*.auto.tfvars
+*.auto.tfvars.json
+
+#CLI configuration
+.terraformrc
+terraform.rc
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+#plan files 
+*.tfplan
+
+#python files
+__pycache__/
+.venv/
